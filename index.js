@@ -29,7 +29,7 @@ app.get('/', async (req, res) => {
         const clientIP = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
         res.send(`
       <h2>Chouaib Dahhan</h2>
-      <h2>Compteur de visites</h2>
+      <h2>Compteur de visites .</h2>
       <p><strong>Visites :</strong> ${count}</p>
       <p><strong>IP client :</strong> ${clientIP}</p>
       <p><strong>Hostname :</strong> ${req.hostname}</p>
