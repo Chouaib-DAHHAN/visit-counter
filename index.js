@@ -28,7 +28,7 @@ app.get('/', async (req, res) => {
         writeCounter(count);
         const clientIP = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
         res.send(`
-      <h2>Chouaib Dahhan</h2>
+      <h2>Chouaib Dahhan .</h2>
       <h2>Compteur de visites .</h2>
       <p><strong>Visites :</strong> ${count}</p>
       <p><strong>IP client :</strong> ${clientIP}</p>
